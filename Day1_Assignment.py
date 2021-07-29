@@ -9,3 +9,10 @@ print(int_list)
 alpha_list=['t','o','i','q','z','m','v','p','r']
 alpha_list.sort(reverse=True)
 print(alpha_list)
+
+
+#User input list sorting
+
+input_list= input("Enter list elements: ").split()
+input_list.sort(reverse=True)
+print(input_list)
